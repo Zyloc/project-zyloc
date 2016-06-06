@@ -2,7 +2,6 @@ import test
 
 test = test.Test()
 data = {
-"name": "kunal",
-"intrest": "coding"
+	"id": 460,
 }
 test.random_function(data)	

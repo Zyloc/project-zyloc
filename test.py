@@ -1,16 +1,11 @@
 class Test(object):
-	
 	def random_function(self,*args,**kwargs):
-		self.name = data['name']
-		self.intrest = data['intrest']
-
+		print data['id']
 	def __init__(self):
 		pass
-
 if __name__=="__main__":
 	test = Test()
 	data = {
-			"name": "kunal",
-			"intrest": "coding"
+		"id": 450,
 	}
 	test.random_function(data)
